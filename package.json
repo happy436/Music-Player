@@ -1,0 +1,69 @@
+{
+    "name": "musicPlayer",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^0.1.18",
+        "@iconscout/react-unicons": "^1.1.6",
+        "@reduxjs/toolkit": "^1.7.1",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.1.1",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^0.27.2",
+        "bootstrap": "^5.1.0",
+        "firebase": "^9.6.11",
+        "id3-parser": "^2.0.0",
+        "nanoid": "^4.0.0",
+        "prop-types": "^15.8.1",
+        "react": "^18.1.0",
+        "react-bootstrap": "^2.7.4",
+        "react-dom": "^18.1.0",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^5.3.1",
+        "react-scripts": "^5.0.1",
+        "react-select": "^5.3.2",
+        "react-toastify": "^9.0.5",
+        "redux": "^4.2.0",
+        "redux-thunk": "^2.4.1",
+        "swiper": "^8.1.4",
+        "web-vitals": "^2.1.4",
+        "yarn": "^1.22.19"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "format": "npx prettier --write ."
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint": "^8.14.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-react": "^7.29.4",
+        "prettier": "^2.6.2"
+    }
+}
